@@ -106,7 +106,6 @@ int main(int argc, char **argv)
 	str.replace(str.end() - 4, str.end(), "");
 	str = str + "_colorized.png";
 	imwrite(str, color * 255);
-
 	cout << "Colorized image saved as " << str << endl;
 	*/
 	return 0;
